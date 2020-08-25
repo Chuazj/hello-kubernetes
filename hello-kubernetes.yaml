@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: chuazj/hello-kubernetes:latest
+        image: chuazj/hello-kubernetes:${GO_PIPELINE_LABEL}.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
