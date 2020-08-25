@@ -11,7 +11,7 @@ app.use(morgan('combined'));
 
 // Configuration
 var port = process.env.PORT || 8080;
-var message = process.env.MESSAGE || "Updating this part GOGOGO!!!!!!";
+var message = process.env.MESSAGE || "Hello from KARBON!";
 
 app.get('/', function (req, res) {
     res.render('home', {
