@@ -27,7 +27,7 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: chuazj/hello-kubernetes:$GO_DEPENDENCY_LABEL_BUILDLABEL.0
+        image: chuazj/hello-kubernetes:1.0
         imagePullPolicy: Always
         ports:
         - containerPort: 8080
