@@ -27,6 +27,6 @@ spec:
     spec:
       containers:
       - name: hello-kubernetes
-        image: chuazj/hello-kubernetes:8.0
+        image: chuazj/hello-kubernetes:latest
         ports:
         - containerPort: 8080
